@@ -43,4 +43,4 @@ Feel free to reach out if you encounter any issues or need further assistance.
 
 ### DEMO
 
-<img src="" alt="demo" />
+<img src="https://raw.githubusercontent.com/03prashantpk/hbullesEyes---ChromeExtension/main/images/instruction.gif" alt="demo" />
