@@ -36,3 +36,5 @@ Feel free to reach out if you encounter any issues or need further assistance.
 ---
 
 <a href="https://bullseyesapi.onrender.com/download">Download The Extension</a>
+
+![](https://komarev.com/ghpvc/?username=03prashantpk&color=ff0000&label=Total,+visitors) ![](https://hit.yhype.me/github/profile?user_id=43730425)<br>
