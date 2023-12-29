@@ -7,6 +7,13 @@
 This repository contains a simple Express.js server that provides API endpoints for managing test data.
 It also includes a file download feature.
 
+
+### DEMO
+
+<img src="https://raw.githubusercontent.com/03prashantpk/hbullesEyes---ChromeExtension/main/images/instruction.gif" alt="demo" />
+
+
+
 ### How to Use
 
 1. **Download The Zip and Extract**
@@ -39,8 +46,3 @@ Feel free to reach out if you encounter any issues or need further assistance.
 
 ![](https://komarev.com/ghpvc/?username=03prashantpk&color=ff0000&label=Total,+visitors) ![](https://hit.yhype.me/github/profile?user_id=43730425)<br>
 
-
-
-### DEMO
-
-<img src="https://raw.githubusercontent.com/03prashantpk/hbullesEyes---ChromeExtension/main/images/instruction.gif" alt="demo" />
