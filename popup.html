@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BullEyes Auto Answers</title>
+    <style>
+        /* Add some basic styling to the body */
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background: linear-gradient(75deg, #eb3fb3, #e125cc, #c718e7);
+            border-radius: 22px;
+            background-image: url('https://i.pinimg.com/564x/d3/bd/be/d3bdbe3ce5a985f9c1b88f137708e89f.jpg');
+            background-size: cover;
+            background-position: top left;
+            background-repeat: no-repeat;
+
+        }
+
+        /* Style the button */
+        #runScript {
+            padding: 8px 10px;
+            background: linear-gradient(45deg, #f86320, #ffdbca);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px !important;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            transition-duration: 0.6s;
+
+        }
+
+        /* Add a hover effect to the button */
+        #runScript:hover {
+            opacity: 0.8;
+            box-shadow: none;
+        }
+
+        .extension {
+            width: 300px;
+            min-height: 200px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 20px;
+            color: #f86320;
+        }
+
+        p {
+            font-size: 12px;
+            color: #286eff;
+        }
+
+        a {
+            color: #f86320;
+            text-decoration: none;
+        }
+
+        .testButton {
+            margin: 5px;
+            padding: 5px 10px;
+            background: #286eff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .testList {
+            height: 250px;
+            overflow-y: auto;
+            padding: 10px 8px;
+            text-align: start;
+            /* From https://css.glass */
+            background: rgba(255, 255, 255, 0.18);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .testList::-webkit-scrollbar {
+            width: 0.5em;
+        }
+
+        .testList::-webkit-scrollbar-thumb {
+            background-color: transparent;
+        }
+
+        .testList p {
+            text-align: center;
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .testButton {
+            padding: 8px 6px;
+            min-width: 70%;
+        }
+
+        .testButton:nth-child(odd) {
+            background: #286eff;
+        }
+
+        .testButton:nth-child(even) {
+            background: #f86320;
+        }
+
+        .testButton:hover {
+            opacity: 0.8;
+        }
+
+        .today {
+            background: rgba(35, 255, 104, 0.59) !important;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(7px);
+            -webkit-backdrop-filter: blur(7px);
+            border: 1px solid rgba(35, 255, 104, 0.93);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="extension">
+        <h1>BullsEyes Auto Answers</h1>
+        <button id="runScript">Fatch Answers</button>
+        <br>
+        <!-- <p id="response"></p> -->
+        <br>
+
+        <div class="testList" id="testList">
+            <!-- Test buttons will be added here dynamically -->
+            <p>Click on Fatch Answers <br><br> Start the test and select the name to begin auto-answering.</p>
+        </div>
+
+        <br>
+        <p>How it Works? <a href="https://bullseyesapi.onrender.com/update" target="_blank">Click Here</a></p>
+        <script src="popup.js"></script>
+
+    </div>
+
+</body>
+
+</html>
