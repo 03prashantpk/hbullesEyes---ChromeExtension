@@ -1,18 +1,15 @@
-**API (Express Server)**
+**Chrome Extension**
 
 ---
 
 ## Overview
 
-This repository contains a simple Express.js server that provides API endpoints for managing test data.
-It also includes a file download feature.
+This extension is designed solely for educational purposes and is intended to be used as a last-minute tool. Imagine a scenario where you have manually solved all your test questions but have insufficient time to mark your answers. This extension allows students to input their answers, aiding them in efficiently marking their responses. Please note that we do not assume responsibility for any usage of this extension beyond the educational context as explained, or for any form of cheating.
 
 
 ### DEMO
 
 <img src="https://raw.githubusercontent.com/03prashantpk/hbullesEyes---ChromeExtension/main/images/instruction.gif" alt="demo" />
-
-
 
 ### How to Use
 
